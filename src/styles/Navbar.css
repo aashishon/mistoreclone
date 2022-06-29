@@ -1,0 +1,87 @@
+.mainnavbar{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    z-index: 1000;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vmax;
+    border-bottom :1px solid rgba(43, 43, 43, 0.137);
+    height: 4.5vmax ;
+    
+
+
+}
+
+
+
+.navlinks{
+color: rgb(59, 59, 59);
+text-decoration: none;
+margin: 1vmax 1.2vmax;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 1.1vmax;
+}
+
+.navlinks:hover{
+    
+}
+
+
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+.logo{
+    background-color: orangered;
+    width: 58px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    right: 2vmax;
+    height: 3.5vmax;
+
+    
+}
+
+#logoid:hover{
+    transform: translateX(-55px);
+    transition: all 0.2s;
+}
+
+.searchbox{
+    position: relative ; 
+    left: 8vmax;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vmax;
+    
+}
+
+.searchbox > input{
+    border: none;
+    border-bottom : 1px solid rgba(128,128,128,0.76);
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color: rgb(61,61,61);
+    font-weight: 100;
+    margin-bottom: 1vmax;    
+}
+
+.searchbox > svg{
+    fill: rgb(212, 210, 210);
+    width: 5vmax;
+    
+}
+
+#searchboxid{
+    margin-bottom: 1vmax;
+}
+
+
+

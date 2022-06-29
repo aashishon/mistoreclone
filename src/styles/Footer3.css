@@ -1,0 +1,94 @@
+.footer3{
+    display: flex;
+    flex-direction: row;
+    background-color: #212121;
+    padding-left: 5vmax;
+    color: #b0b0b0;;
+    padding-bottom: 4vmax;
+}
+
+.footer3 > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vmax;
+    margin-top: 3vmax;
+}
+
+
+.footer3 >div >b{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 600;
+    padding-bottom: .7vmax;
+}
+
+.footer3 >div >a{
+    color: #b0b0b0;
+    font-weight: .1vmax;
+    margin-top: .3vmax;
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+
+.footer3 >div >a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.chat{
+    padding-left: 2vmax;
+}
+.chat > p{
+    font-family: ProximaNova,Arial,Sans-serif;
+    font-weight: 200;
+    font-size: .8vmax;
+    padding-top: 2vmax;
+}
+
+
+.chat > button{
+    display: inline-block;
+    width: 158px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+    background-color: #212121;
+    color: white;
+    border-color: white;
+}
+
+.chat > button:hover{
+    color: black;
+    background-color: white ;
+}
+
+
+.line{
+    background-color: #212121 ; 
+    padding-top: 2vmax;
+    padding-bottom: 1vmax;
+    border-top: 1px solid #424242;
+
+    
+
+}
+
+.line > span{
+    color: #b0b0b0;
+    padding-left: 8vmax;   
+}
+
+
+
+

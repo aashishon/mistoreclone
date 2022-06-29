@@ -1,0 +1,20 @@
+.offersSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+}
+
+
+.offersSection img{
+    margin: 0.1vmax;
+}
+
+.offersSection img:hover{
+    box-shadow: 6px 6px 15px rgba(53,53,53,0.363);
+    /* pahilo ra second ko vaneko X and Y axis ma kati ko shadow rakhne vanne kura ho  */
+    transition: all 0.5s;
+}
+
+
+

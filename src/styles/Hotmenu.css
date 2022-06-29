@@ -1,0 +1,19 @@
+.hotmenu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.link{
+    margin: 1.5vmax;
+    color: rgb(164, 159, 159);
+    padding: 0.5vmax 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.link:hover{
+    color: orangered;
+    text-decoration: none;
+}
